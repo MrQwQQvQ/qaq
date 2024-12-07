@@ -62,10 +62,8 @@ The project was conducted in the following stages:
 
 ## Files in the Repository
 
-* **data.csv**: The dataset used in this project.
-* -Since The file is too large, it's splited into 2 parts here.
-* **notebooks/**: Jupyter notebooks for data exploration, preprocessing, and model training.
-* **scripts/**: Python scripts for specific tasks like oversampling and model evaluation.
+* **data.csv**: The dataset used in this project. (Since The file is too large, it's splited into 2 parts here.)
+* **\*.py & \*.ipy**: Python codes for data exploration, preprocessing, and model training.
 * **README.md**: This README file.
 
 ## Future Improvements
