@@ -72,17 +72,3 @@ The project was conducted in the following stages:
 * Experiment with deep learning models like Neural Networks for improved performance.
 * Apply advanced sampling techniques (e.g., SMOTE) to address class imbalances more effectively.
 * Perform hyperparameter tuning using grid search or Bayesian optimization for better model fine-tuning.
-
-## Getting Started
-
-### Prerequisites
-
-* Python 3.8 or above
-* Required libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `imbalanced-learn`
-
-### Installation
-
-1. Clone this repository:
-  
-      git clone https://github.com/yourusername/diabetes-prediction.git
-      cd diabetes-prediction
