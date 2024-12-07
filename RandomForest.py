@@ -65,3 +65,34 @@ print(collections.Counter(Y_pred))
 f1 = f1_score(Y_test, Y_pred, average='macro')
 print(f"F1 Score of test data: {f1}")
 print(classification_report(Y_test, Y_pred))
+
+'''
+target
+0.0    201625
+2.0    100674
+1.0     19268
+Name: count, dtype: int64
+Counter({0.0: 200826, 2.0: 101280, 1.0: 19461})
+F1 Score of train data: 0.9899107519970495
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.99      0.99    201625
+         1.0       0.98      0.99      0.99     19268
+         2.0       0.99      0.99      0.99    100674
+
+    accuracy                           0.99    321567
+   macro avg       0.99      0.99      0.99    321567
+weighted avg       0.99      0.99      0.99    321567
+
+Counter({0.0: 52027, 2.0: 7221, 1.0: 752})
+F1 Score of test data: 0.7624239798457756
+              precision    recall  f1-score   support
+
+         0.0       0.93      0.96      0.95     50375
+         1.0       0.83      0.53      0.65      1183
+         2.0       0.75      0.64      0.69      8442
+
+    accuracy                           0.91     60000
+   macro avg       0.84      0.71      0.76     60000
+weighted avg       0.91      0.91      0.91     60000
+'''
